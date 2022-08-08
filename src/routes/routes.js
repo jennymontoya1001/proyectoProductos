@@ -3,6 +3,9 @@ const router = Router();
 
 const mysqlConnection = require('./db/db');
 
+
+  
+
 //Cliente
 //SERVICE POST -- CREACIÓN
 router.post('/Customer_New', (req, res) => {
